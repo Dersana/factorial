@@ -6,15 +6,17 @@ int main()
     scanf("%d",&n);
     printf("factorial %d",factorial(n));
 }
-int factorial(int n)
+int factorial(int n) //recursive function
 {
     if (n == 1)
         return 1;
     else
         return n * factorial(n - 1);
+	
+	
 
 
-{
+
 	int n,i,f;
 	printf("Enter a number whose you want to find out the Factorial \n");
 	scanf("%d",&n);
